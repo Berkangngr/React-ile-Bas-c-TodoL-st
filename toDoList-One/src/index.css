@@ -1,0 +1,18 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+li:hover {
+ cursor: pointer;
+}
+
+.mainDiv {
+    top: 50%;
+        left: 50%;
+        width: 30em;
+        height: 18em;
+        transform: translate(-50%, -50%);
+        border: 1px solid #666;
+        background: papayawhip;
+        position: fixed;
+        overflow: auto;
+    
+}
